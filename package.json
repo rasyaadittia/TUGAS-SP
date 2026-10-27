@@ -1,0 +1,13 @@
+{
+  "name": "chat-realtime-socket",
+  "version": "1.0.0",
+  "description": "Aplikasi chat real-time menggunakan Node.js dan Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}

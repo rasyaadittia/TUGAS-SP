@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Real-Time</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chat Real-Time</h1>
+      <p>Aplikasi chat menggunakan Node.js dan Socket.IO</p>
+
+      <label for="username">Nama pengguna:</label>
+      <input type="text" id="username" placeholder="Masukkan nama" />
+
+      <div id="messages"></div>
+
+      <form id="chatForm">
+        <input
+          type="text"
+          id="messageInput"
+          placeholder="Tulis pesan..."
+          autocomplete="off"
+        />
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
